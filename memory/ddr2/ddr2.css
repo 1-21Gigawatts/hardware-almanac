@@ -1,0 +1,14 @@
+/* ddr2.css:
+Style sheet for ddr2.html. Ideally used for IDs and 
+.html-specific classes. ddr2.html already inherits
+from memory.css and common.css.
+*/
+
+#nav_ddr2 {
+    font-size: 2em;
+    box-shadow: 0 0 8px 0 #000;
+}
+
+#subheader {
+    font-size: 1.5em;
+}
