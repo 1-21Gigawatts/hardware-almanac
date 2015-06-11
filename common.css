@@ -39,6 +39,10 @@ p, h1, h2, h3, h4, h5, h6, a {
     font-size: 1em;
 }
 
+.main_title {
+    font-size: 2.5em;
+}
+
 header {
     background-color: #9C27B0;
     color: #FFF;
@@ -58,21 +62,25 @@ article .centered {
     display: flex;
     flex-wrap: wrap;
     
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
+    border: 1px #DCDCDC;
+    border-style: solid none solid none;
     
     max-width: 60%;
-    margin: 5px auto 0 auto;
+    margin: .5% auto .5% auto;
+    padding: .5% 0 .5% 0;
 }
 
-.center_content { 
+.center_content {
+    font-family: "Roboto", "Open Sans", sans-serif;
     display: flex;
     flex-flow: column wrap;
     justify-content: center;
     align-items: center;
     
     max-width: 60%;
-    margin: 5px auto 0 auto;
+    margin: .5% auto .5% auto;
 }
 
 .nav_button {
@@ -86,7 +94,6 @@ article .centered {
     font-size: 1.5em;
   
     padding: 12px;
-    margin: auto;
 }
 
 a .nav_button:hover {

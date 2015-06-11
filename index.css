@@ -10,7 +10,4 @@ ID styles and .html-specific classes here.
 
 #about_article p{
     text-align: center;
-    border: 1px #DCDCDC;
-    border-style: none none solid none;
-    padding: 5px 0px 5px 0px; /* top right bottom left */
 }

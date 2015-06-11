@@ -6,8 +6,6 @@ ID styles and .html-specific classes here.
 #main_title {
     margin: 1% 0 1% 0;
     font-size: 2.5em;
-    border: 1px #DCDCDC;
-    border-style: none none solid none;
     max-width: 60%;
     margin: 1% auto 1% auto;
 }
@@ -15,6 +13,6 @@ ID styles and .html-specific classes here.
 #nav_bar_browse {
     justify-content: center;
     border: 1px #DCDCDC;
-    padding-bottom: 1%;
-    border-style: none none solid none;
+    padding: .5% 0 .5% 0;
+    border-style: solid none solid none;
 }
