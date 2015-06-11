@@ -1,0 +1,10 @@
+/* ddr3.css:
+Style sheet for ddr3.html. Ideally used for IDs and 
+.html-specific classes. ddr3.html already inherits
+from memory.css and common.css.
+*/
+
+#nav_ddr3 {
+    font-size: 2em;
+    box-shadow: 0 0 8px 0 #000;
+}

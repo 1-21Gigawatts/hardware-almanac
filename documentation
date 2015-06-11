@@ -1,0 +1,30 @@
+hardware-almanac.com
+
+File hierarchy:
+hardware-almanac 			- root folder
+	index.html/index.css 	 - home page
+	common.css			     - global stylesheet
+	responsive.css			 - device compatibility style (UNUSED)
+	resources			     - global resources folder
+	page				     - child page (i.e. memory) folder
+		page.html		
+		page.css          - child stylesheet
+		subpage			- child subpage (i.e types of memory) folder
+			subpage.html
+			subpage.css
+
+CSS Documentation
+
+All pages inherit from common.css. Individual page styling and page-unique features
+should remain in that page's own .css file.
+
+classes:
+	.page_title - for the "hardware-almanac.com" title
+	.page_title+h4 - for the "A Comprehensive Guide..." subtitle
+
+	.centered - for any text that needs to be align: center
+	article .heading - any article header, bigger version of .heading
+	.nav_bar - the container for navigation buttons
+	.nav_button - navigation buttons inside the nav_bar
+	.center_content - elements under the header in the center. Elements inside of a center_content will be aligned side-by-side from the middle branching out. 
+

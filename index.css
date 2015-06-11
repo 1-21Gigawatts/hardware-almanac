@@ -1,3 +1,8 @@
+/* index.css:
+Style sheet for index.html. Ideally you would only put
+ID styles and .html-specific classes here.
+*/
+
 #about_article {
     max-width: 60%;
     margin-top: 10px;
@@ -8,8 +13,4 @@
     border: 1px #DCDCDC;
     border-style: none none solid none;
     padding: 5px 0px 5px 0px; /* top right bottom left */
-}
-
-#nav_memory {
-    order: 1;
 }

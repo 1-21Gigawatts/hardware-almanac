@@ -1,3 +1,8 @@
+/* memory.css:
+Style sheet for memory.html. Ideally you would only put
+ID styles and .html-specific classes here.
+*/
+
 #main_title {
     margin: 1% 0 1% 0;
     font-size: 2.5em;
@@ -7,7 +12,13 @@
     margin: 1% auto 1% auto;
 }
 
-#nav_ddr3 {
-    font-size: 2em;
-    box-shadow: 0 0 8px 0 #000;
+#nav_bar_browse {
+    justify-content: center;
+    border: 1px #DCDCDC;
+    padding-bottom: 1%;
+    border-style: none none solid none;
+}
+
+#wikipedia_link {
+    margin-bottom: 1%;
 }
