@@ -1,0 +1,6 @@
+/* responsive.css:
+Style rules for different device types, i.e. tablets, phones, etc.... */
+
+@media screen and (min-width: 768px) {  <!-- iPads/Generic Tablets in Portrait mode -->
+    <!-- Tablet-specific CSS here -->
+}
