@@ -27,4 +27,5 @@ classes:
 	.nav_bar - the container for navigation buttons
 	.nav_button - navigation buttons inside the nav_bar
 	.center_content - elements under the header in the center. Elements inside of a center_content will be aligned side-by-side from the middle branching out. 
+    .aligned_left - elements within center_content that need to be at the left edge
 
