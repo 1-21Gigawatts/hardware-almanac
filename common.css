@@ -97,3 +97,23 @@ a .nav_button:hover {
 a .nav_button:active {
     background-color: #6A1B9A;
 }
+
+.picture {
+    box-shadow: 0 0 4px 0px #000;
+    padding: .25%;
+    margin: .25%;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.picture img {
+    order: 1;
+}
+
+.picture p {
+    font-size: .9em;
+    font-style: italic;
+    order: 2;
+}
