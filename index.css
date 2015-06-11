@@ -12,10 +12,10 @@
 
 #nav_bar {
     display: flex;
-    flex-wrap: nowrap;
+    flex-wrap: wrap;
     
     justify-content: space-between;
-    align-items: stretch;
+    align-items: center;
     
     max-width: 60%;
     margin: 5px auto 0 auto;
@@ -24,12 +24,15 @@
 .nav_button {
     color: #FFF;
     background-color: #9C27B0;
-    font-family: "Roboto", "Open Sans", sans-serif;
-    font-size: 1.5em;
-    font-weight: 200;
-    margin: 1%;
-    padding: 12px 14px 12px 12px;
     box-shadow: 0 0 2px 0px #000;
+    font-family: "Roboto", "Open Sans", sans-serif;
+    text-align: center;
+    font-weight: 200;
+    
+    font-size: 1.5em;
+  
+    padding: 12px;
+    margin: 2px;
 }
 
 a .nav_button:hover {
