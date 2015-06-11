@@ -1,0 +1,13 @@
+#main_title {
+    margin: 1% 0 1% 0;
+    font-size: 2.5em;
+    border: 1px #DCDCDC;
+    border-style: none none solid none;
+    max-width: 60%;
+    margin: 1% auto 1% auto;
+}
+
+#nav_ddr3 {
+    font-size: 2em;
+    box-shadow: 0 0 8px 0 #000;
+}
