@@ -18,5 +18,12 @@ ID styles and .html-specific classes here.
 }
 
 .subheader {
+    width: 100%;
     font-size: 1.5em;
+    border: 1px #DCDCDC;
+    border-style: none none solid none;
+}
+
+#status_bar {
+    margin-left: auto; margin-right: auto;
 }
