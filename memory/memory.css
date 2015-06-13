@@ -12,9 +12,7 @@ ID styles and .html-specific classes here.
 
 #nav_bar_browse {
     justify-content: center;
-    border: 1px #DCDCDC;
     padding: .5% 0 .5% 0;
-    border-style: solid none solid none;
 }
 
 .subheader {
