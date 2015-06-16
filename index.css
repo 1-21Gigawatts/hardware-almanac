@@ -4,10 +4,5 @@ ID styles and .html-specific classes here.
 */
 
 #about_article {
-    max-width: 60%;
-    margin-top: 10px;
-}
-
-#about_article p{
-    text-align: center;
+    margin: 25px auto;
 }

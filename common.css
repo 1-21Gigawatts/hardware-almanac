@@ -5,63 +5,95 @@ identical across pages, i.e. the background, the font, etc....
 Ideally you would only put class styles here.
 */
 
+
+/* Element styles */
 * {
     margin: 0;
     padding: 0;
-    position: relative;
+}
+
+html {
+    font-size: 16px;
 }
 
 a {
     text-decoration: none;
-    color: black;
+    color: inherit;
 }
 
 article {
-    margin: 0px auto 0px auto;
+    margin: 12.5px auto;
 }
 
 body {
-    background-color: #FFF;
-    height: 100vh; /* Make the height/width of the page = the height of the viewing window */
-    width: 100vw;
-}
-
-p, h1, h2, h3, h4, h5, h6, a {
     font-family: "Roboto", "Open Sans", sans-serif;
-    font-weight: 200;
-}
-
-.page_title {   
-    font-size: 3em;
-}
-
-.page_title+h4 {    
-    font-size: 1em;
-}
-
-.main_title {
-    font-size: 2.5em;
-    max-width: 75%;
-    margin: 0 auto 0 auto;
+    font-weight: 400;
+    background-color: #FFF;
 }
 
 header {
     background-color: #9C27B0;
     color: #FFF;
     box-shadow: 0px 0px 4px 0px #000;
+    
 }
 
 footer {
-    height: 5%;
-    margin: 1% 0 1% 0;
+    height: 120px;
+    margin: 0 auto;
 }
+
+/* Class styles */
+
+.wrapper {
+    margin: 0px auto;
+    width: 1100px;
+}
+
+.flex_box { /* Items are aligned in the center by default, see .aligned_left and .aligned_right */
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.aligned_left {
+    align-self: flex-start;
+}
+
+.aligned_right {
+    align-self: flex-end;
+}
+
 .centered {  
     text-align: center;
 }
 
+.underlined_link {
+    color: #5D5F60;
+    border: 1px #5D5F60;
+    border-style: none none solid none;
+}
 
-article .centered {
-    font-size: 2em;
+.underlined_link:hover {
+    color: #7D7F80;
+    border: 1px #7D7F80;
+    border-style: none none solid none;
+}
+
+.page_title {
+    margin-top: 25px;
+    font-size: 2rem;
+    font-weight: 200;
+    border: 1px #DCDCDC;
+    border-style: none none solid none;
+}
+
+.subheader {
+    margin-top: 25px;
+    font-size: 1.5rem;
+    border: 1px #DCDCDC;
+    border-style: none none solid none;
 }
 
 .nav_bar {
@@ -73,20 +105,7 @@ article .centered {
     border: 1px #DCDCDC;
     border-style: solid none solid none;
     
-    max-width: 75%;
-    margin: .5% auto .5% auto;
-    padding: .5% 0 .5% 0;
-}
-
-.center_content {
-    font-family: "Roboto", "Open Sans", sans-serif;
-    display: flex;
-    flex-flow: column nowrap;
-    justify-content: center;
-    align-items: center;
-    
-    max-width: 75%;
-    margin: .5% auto .5% auto;
+    padding: 10px 0;
 }
 
 .nav_button {
@@ -97,12 +116,9 @@ article .centered {
     text-align: center;
     font-weight: 200;
     
-    font-size: 1.5em;
-    margin: 1% 0 1% 0;
-}
-
-.nav_button div, p {
-    padding: 12px;
+    font-size: 1.5rem;
+    margin: 12.5px 0;
+    padding: 12.5px;
 }
 
 .nav_button:hover {
@@ -114,10 +130,21 @@ article .centered {
     background-color: #6A1B9A;
 }
 
+.circular {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    box-shadow: 0px 1px 6px 0px #000;
+    height: 75px; width: 75px;
+    border-radius: 50%;
+    margin: 25px;
+}
+
 .picture {
     box-shadow: 0 0 4px 0px #000;
-    padding: 15px;
-    margin: 1% 0 1% 0;
+    padding: 12.5px;
+    margin: 12.5px 0;
     display: flex;
     flex-flow: column wrap;
     justify-content: center;
@@ -129,26 +156,7 @@ article .centered {
 }
 
 .picture p {
-    font-size: .9em;
+    font-size: .9rem;
     font-style: italic;
     order: 2;
-}
-
-.aligned_left {
-    align-self: flex-start;
-}
-
-.aligned_right {
-    align-self: flex-end;
-}
-
-.circular {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    position: absolute;
-    box-shadow: 0px 1px 6px 0px #000;
-    height: 75px; width: 75px;
-    border-radius: 50%;
-    margin: 1%;
 }
