@@ -77,8 +77,6 @@ footer {
 
 .underlined_link {
     color: #5D5F60;
-    border: 1px #5D5F60;
-    border-style: none none solid none;
 }
 
 .underlined_link:hover {
@@ -128,7 +126,7 @@ footer {
 }
 
 .nav_button:hover {
-    background-color: #8E24AA;
+    background-color: #7B1FA2;
     color: #F3E5F5;
 }
 
