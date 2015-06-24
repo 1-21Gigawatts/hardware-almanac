@@ -13,8 +13,9 @@
         <link href='http://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
         <link href='http://fonts.googleapis.com/css?family=Open+Sans:300' rel='stylesheet' type='text/css'>
         
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
-        <script src="chipsets.js"></script>
+        <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+        <script src="../../tooltip.js" type="text/javascript"></script>
+
     </head>
     
     <body>
@@ -29,11 +30,9 @@
         
         <div class="wrapper flex_box" style="margin-top: 25px;">
             <p class="centered" style="margin: 12.5px 0 25px 0;">The Northbridge chipset on a motherboard, unlike the Southbridge chipset, is a microchip that is directly connected to the 
-                
-                <span class="info_box">CPU<span class="info_hidden">Hello</span></span>
-                . It's responsible for
-            communications among the CPU and occasionally the RAM and PCI-E slots. Depending on the system, the motherboard may have a Northbridge <em>and</em> a Southbridge, or it may have only a Northbridge,
-            and over time, various functions of the Northbridge have been reassigned to the CPU itself.</p>
+            <span class="masterTooltip" title="Central Processing Unit">CPU</span>. It's responsible for communications among the CPU and occasionally the <span class="masterTooltip" title="Random Access Memory">RAM</span>
+            and <span class="masterTooltip" title="Peripheral Component Interconnect Express">PCIe</span> slots. Depending on the system, the motherboard may have a Northbridge <em>and</em> 
+            a Southbridge, or it may have only a Northbridge, and over time, various functions of the Northbridge have been reassigned to the CPU itself.</p>
         </div>
         
         <div class="wrapper nav_bar">

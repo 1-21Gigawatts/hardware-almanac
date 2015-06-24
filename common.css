@@ -77,12 +77,13 @@ footer {
 
 .underlined_link {
     color: #5D5F60;
+    border: 1px #5D5F60;
+    border-style: none none solid none;
 }
 
 .underlined_link:hover {
     color: #7D7F80;
-    border: 1px #7D7F80;
-    border-style: none none solid none;
+    border-color: #7D7F80;
 }
 
 .page_title {
@@ -104,6 +105,20 @@ footer {
     width: 100%;
     border: 1px #DCDCDC;
     border-style: none none solid none;
+}
+
+.tooltip {
+    padding: 12.5px;
+    display: none;
+    position: absolute;
+    background-color: #FFF;
+    box-shadow: 0 0 2px 0px #000;
+    max-width: 300px;
+    text-align: center;
+}
+
+.masterTooltip {
+    color: #5D5F60;
 }
 
 .nav_bar {
