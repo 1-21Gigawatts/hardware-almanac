@@ -8,17 +8,26 @@
         
         <link rel="stylesheet" href="../../../../common.css"> 
         <link rel="stylesheet" href="responsive.css">
+        <link rel="stylesheet" href="../../../../tipuesearch/tipuesearch.css">
+        
         <link href='http://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
         <link href='http://fonts.googleapis.com/css?family=Open+Sans:300' rel='stylesheet' type='text/css'>
+        
+        <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+        <script src="../../../../tooltip.js" type="text/javascript"></script>
     </head>
     
     <body>
-        <a href="../../../../index.html">
-            <header>
-                <h1 class="centered wrapper" style="font-size: 2.5rem; font-weight: 100;">hardware-almanac.com</h1>
-                <h4 class="centered wrapper" style="font-size: 1rem; font-weight: 100;"><em>What's that part? A Comprehensive Guide to Identifying Computer Hardware</em></h4>
-            </header>
-        </a>
+        <header class="flex_box">
+            <a href="../../../../index.html">
+                <h1 class="centered" style="font-size: 2.5rem; font-weight: 100;">hardware-almanac.com</h1>
+                <h4 class="centered" style="font-size: 1rem; font-weight: 100;"><em>What's that part? A Comprehensive Guide to Identifying Computer Hardware</em></h4>
+            </a>
+            
+            <form action="../../../../search.html">
+                <input type="text" name="q" id="tipue_search_input" autocomplete="off" required>
+            </form>
+        </header>
         
         <h3 class="wrapper centered page_title">Intel Sockets</h3>
         
